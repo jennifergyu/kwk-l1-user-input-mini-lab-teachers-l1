@@ -13,4 +13,7 @@ stay = gets.chomp.capitalize  #don't forget to Capitilize the input
 
 # Lastly, puts it all back by interpolating these values in a string.
 
-puts ""
+puts "What is your name"
+name = gets.chomp
+puts "Where do you want to go"
+go = gets.chomp
